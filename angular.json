@@ -28,9 +28,13 @@
               "src/assets"
             ],
             "styles": [
+              "/Users/yamamotoakihiro/Sites/reservationapp/node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
+
             ],
-            "scripts": []
+            "scripts": [
+          
+            ]
           },
           "configurations": {
             "production": {
