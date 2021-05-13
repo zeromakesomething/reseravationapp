@@ -1,0 +1,20 @@
+<p>productlist component !</p>
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+      <div *ngFor = "let product of products">
+        <a [routerLink] = "['/detail']">
+           <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum fugit nihil rem accusantium, velit natus perferendis pariatur maiores corporis ea.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+         </a>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  product.component.module.ts
